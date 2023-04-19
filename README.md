@@ -17,10 +17,14 @@ git checkout <branch name> ( to switch to the new branch u just created)
 edit and save the files
 git status ( to see your update is ready on the new branch)
 git add .
-git checkout master (switch back to master branch)
+git commit -m "message"
+git checkout main (switch back to main branch)
 git merge <branch name> (merger the new branch's data into the master branch)
 git push process as usual.
 ```
 ### Everytime when you are working on the repo again, don't forget to git pull the latest version of our repo to you local. 
-
+```
+git branch xxxx (next time when you work, go to your own branch)
+git pull origin main (make sure you have the latest version of the main branch before you work)
+```
 
