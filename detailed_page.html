@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <style>
+        body {
+            font-family: "Nunito Sans", Arial, sans-serif;
+            box-sizing: border-box;
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            background-color: #444;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        .nav-logo {
+            height: 40px;
+            width: auto;
+            margin-right: 1rem;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: space-around;
+            flex-grow: 1;
+        }
+
+        header {
+            color: white;
+            text-align: center;
+            padding-top: 2rem;
+            padding-bottom: 1rem;
+            background-color: rgb(23, 2, 2);
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+        }
+
+        .main-content {
+            flex: 2;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .coffee-shop-img img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .coffee-shop-info {
+            flex-grow: 1;
+            margin-left: 2rem;
+        }
+
+        .recommendations {
+            flex: 1;
+            background-color: #3a3232;
+            padding: 2rem;
+            border-left: 1px solid #ccc;
+            position: sticky;
+            top: 0;
+        }
+
+        .recommendations h2 {
+            margin-bottom: 1rem;
+        }
+
+        .coffee-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .coffee-img {
+            width: 150px;
+            height: 150px;
+            width: auto;
+            margin-right: 1rem;
+        }
+
+        .coffee-details {
+            line-height: 1.2;
+        }
+
+        .reviews-btn {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            position: absolute;
+            top: 3rem;
+            right: 1rem;
+        }
+
+        .reviews-btn:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#"></a><img src="img/Logo.png" class="nav-logo"></a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="Map.html">Map</a>
+            <a href="aboutus.html">About Us</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Big Shop Name</h1>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <div class="coffee-shop-img">
+                <img src="img/coffee shop 1.png" alt="Coffee Shop">
+            </div>
+
+            <div class="coffee-shop-info">
+                <section id="basic-info">
+                    <h2>Big Shop Name</h2>
+                    <p><strong>Overall Rating:</strong> 4.5/5</p>
+                    <p><strong>Special Ratings:</strong></p>
+                    <ul>
+                        <li>Taste: 4.7/5</li>
+                        <li>Environment: 4.5/5</li>
+                        <li>Service: 4.3/5</li>
+                    </ul>
+                    <p><strong>Unique Features:</strong></p>
+                    <ul>
+                        <li>Free Wi-Fi</li>
+                        <li>Pet-friendly</li>
+                        <li>Outdoor seating</li>
+                    </ul>
+                    <p><strong>Opening Hours:</strong> Mon-Sun, 8:00 AM - 10:00 PM</p>
+                    <p><strong>Current Status:</strong> <span style="color: green;">Open</span></p>
+                    <p><strong>Address:</strong> 123 Coffee Street, Coffee City, CO 12345</p>
+                    <p><strong>Official Website:</strong> <a href="https://www.bigshopname.com" target="_blank">www.bigshopname.com</a></p>
+                </section>
+
+                <section id="contact">
+                    <h2>Contact</h2>
+                    <p>If you have any questions or would like to know more about our offerings, feel free to reach out:</p>
+                    <p>Email: info@ourcoffeeshop.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                </section>
+            </div>
+        </div>
+
+        <div class="recommendations">
+            <h2>Recommendations</h2>
+            <a href="reviews.html" class="reviews-btn">Reviews</a>
+            <div class="coffee-item">
+                <img src="img/Cappuccino.png" alt="Coffee 1" class="coffee-img">
+                <div class="coffee-details">
+                    <p><strong>#1 Cappuccino</strong></p>
+                    <p>Rating: 4.5/5</p>
+                    <p>Price: $3.50</p>
+                    <p>Likes: 120</p>
+                </div>
+            </div>
+            <div class="coffee-item">
+                <img src="img/Latte.jpg" alt="Coffee 2" class="coffee-img">
+                <div class="coffee-details">
+                    <p><strong>#2 Latte</strong></p>
+                    <p>Rating: 4.3/5</p>
+                    <p>Price: $3.00</p>
+                    <p>Likes: 100</p>
+                </div>
+            </div>
+            <div class="coffee-item">
+                <img src="img/Mocha.png" alt="Coffee 3" class="coffee-img">
+                <div class="coffee-details">
+                    <p><strong>#3 Mocha</strong></p>
+                    <p>Rating: 4.2/5</p>
+                    <p>Price: $3.75</p>
+                    <p>Likes: 85</p>
+                </div>
+            </div>
+            <div class="coffee-item">
+                <img src="img/Espresso.jpg" alt="Coffee 4" class="coffee-img">
+                <div class="coffee-details">
+                    <p><strong>#4 Espresso</strong></p>
+                    <p>Rating: 4.1/5</p>
+                    <p>Price: $2.50</p>
+                    <p>Likes: 80</p>
+                </div>
+            </div>
+            <div class="coffee-item">
+                <img src="img/Americano.png" alt="Coffee 5" class="coffee-img">
+                <div class="coffee-details">
+                    <p><strong>#5 Americano</strong></p>
+                    <p>Rating: 4.0/5</p>
+                    <p>Price: $2.75</p>
+                    <p>Likes: 70</p>
+                </div>
+            </div>
+            <div class="coffee-item">
+                <img src="img/Flat White.png" alt="Coffee 6" class="coffee-img">
+                <div class="coffee-details">
+                    <p><strong>#6 Flat White</strong></p>
+                    <p>Rating: 3.9/5</p>
+                    <p>Price: $3.25</p>
+                    <p>Likes: 60</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 Our Coffee Shop. All rights reserved.
+    </footer>
+</body>
+
+</html>
