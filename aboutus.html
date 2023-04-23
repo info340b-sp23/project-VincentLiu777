@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Coffee Ground</title>
+  <meta name="Vincent Liu, Zareen Tasnim, Nika Zhang, Leo Ren" content="Coffee Ground" />
+  <meta name="About Us" content="About Us for the Coffee Ground" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="icon" type="img/logo.png" href="https://thenounproject.com/icon/coffee-bean-4447328/">
+</head>
+<!-- Check List:
+      Includes HTML content for all parts of the app.
+      Includes multiple pages, with hyperlinks between them (in both directions!)
+      All pages link in a single CSS file
+      Includes meta elements in html head: author (index only), description (index only), favicon, title
+      Includes header element (with app name) and footer (with copyright) elements
+      Includes sufficient content (e.g., multiple views of the data)
+      Includes a form element -->
+
+<body>
+  <nav class="navbar navbar-expand-lg py-5">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Coffee Ground</a>
+      <a class="navbar-brand" href="#">
+        <img src="img/Logo.png" alt="Bootstrap" width="30" height="24">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Map</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Cafe on the Ave" aria-label="Search">
+          <button class="btn text-white" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <div class="row">
+        <!-- Person 1 -->
+        <div class="col-md-6 col-xl-3 d-flex">
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="row">
+                <div class="col col-sm-auto col-xl-12">
+                  <img class="img-fluid" src="img/IMG_1693.jpg" alt="Photo of Vincent Liu">
+                </div>
+                <div class="col-sm">
+                  <h2 class="card-title">Vincent Liu</h2>
+                  <p class="card-text">Junior at UW Informatics</p>
+                  <a href="#" class="btn btn-dark">View more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Card 2 -->
+        <div class="col-md-6 col-xl-3 d-flex">
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="row">
+                <div class="col col-sm-auto col-xl-12">
+                  <img class="img-fluid" src="img/placeholder.png" alt="Photo of Zareen">
+                </div>
+                <div class="col-sm">
+                  <h2 class="card-title">Zareen</h2>
+                  <p class="card-text">Junior at UW Informatics</p>
+                  <a href="#" class="btn btn-dark">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-6 col-xl-3 d-flex">
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="row">
+                <div class="col col-sm-auto col-xl-12">
+                  <img class="img-fluid" src="img/placeholder.png" alt="Photo of Nika">
+                </div>
+                <div class="col-sm">
+                  <h2 class="card-title">Nika</h2>
+                  <p class="card-text">Junior at UW Informatics
+                  </p>
+                  <a href="#" class="btn btn-dark">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="col-md-6 col-xl-3 d-flex">
+          <div class="card mb-4">
+            <div class="card-body">
+              <div class="row">
+                <div class="col col-sm-auto col-xl-12">
+                  <img class="img-fluid" src="img/placeholder.png" alt="Photo of Leo">
+                </div>
+                <div class="col-sm">
+                  <h2 class="card-title">Leo Ren</h2>
+                  <p class="card-text">Junior at UW Informatics
+                  </p>
+                  <a href="#" class="btn btn-dark">View More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <p>
+        <a href="mailto:email@coffee.uw.edu"><span class="material-icons">email</span> email@coffee.uw.edu</a>
+      </p>
+      <p>
+        <a href="tel:555-123-4567"><span class="material-icons">phone</span> 555-123-4567</a>
+      </p>
+      <p>&copy; Coffee Ground 2023</p>
+    </div>
+  </footer>
+</body>
+
+</html>
