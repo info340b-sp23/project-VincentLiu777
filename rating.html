@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <title>Coffee Shop Ratings</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <style>
         body {
             font-family: "Nunito Sans", Arial, sans-serif;
@@ -15,22 +18,25 @@
             flex-direction: column;
             min-height: 100vh;
         }
+
         header {
             background-color: #333;
             color: #fff;
             padding: 10px;
             text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
             z-index: 1;
         }
+
         h1 {
             margin: 0;
             font-size: 2rem;
         }
+
         main {
             display: flex;
             flex-wrap: wrap;
@@ -38,14 +44,16 @@
             padding: 80px 20px 20px;
             margin-top: 60px;
         }
+
         section {
             background-color: #fff;
             border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
             flex-basis: calc(33.33% - 20px);
             margin-bottom: 30px;
             overflow: hidden;
         }
+
         h2 {
             background-color: #6c4d36;
             color: #fff;
@@ -55,17 +63,20 @@
             text-align: center;
             text-transform: uppercase;
         }
+
         p {
             font-size: 1.5rem;
             margin: 20px 10px;
             text-align: center;
         }
+
         label {
             display: block;
             font-size: 1.2rem;
             margin-bottom: 5px;
             color: #6c4d36;
         }
+
         input[type="number"] {
             display: block;
             font-size: 1.5rem;
@@ -73,6 +84,7 @@
             padding: 5px;
             width: 100%;
         }
+
         textarea {
             display: block;
             font-size: 1.2rem;
@@ -80,6 +92,7 @@
             padding: 5px;
             width: 100%;
         }
+
         button {
             background-color: #6c4d36;
             border: none;
@@ -90,96 +103,125 @@
             transition: background-color 0.3s ease;
             width: 100%;
         }
+
         button:hover {
             background-color: #5a3b29;
         }
+
         .comments {
             background-color: #fff;
             border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
             margin-top: 20px;
             padding: 20px;
         }
+
         h3 {
             font-size: 1.2rem;
             margin-bottom: 5px;
             color: #6c4d36;
         }
+
         .comment {
             border-bottom: 1px solid #ccc;
             margin-bottom: 10px;
             padding-bottom: 10px;
         }
-		.comment p {
-			font-size: 1.2rem;
-			margin: 0;
-			padding-left: 10px;
-		}
-		.comment span {
-			color: #666;
-			font-size: 1rem;
-			padding-left: 10px;
-		}
-	</style>
+
+        .comment p {
+            font-size: 1.2rem;
+            margin: 0;
+            padding-left: 10px;
+        }
+
+        .comment span {
+            color: #666;
+            font-size: 1rem;
+            padding-left: 10px;
+        }
+    </style>
 </head>
+
 <body>
-	<header>
-		<h1>Coffee Shop Ratings</h1>
-	</header>
-	<main>
-		<section>
-			<h2>Overall Rating</h2>
-			<p id="overallRating"></p>
-			<label for="overallInput">Rate this coffee shop:</label>
-			<input type="number" id="overallInput" min="1" max="5" step="0.1">
-		</section>
-		<section>
-			<h2>Taste</h2>
-			<p id="tasteRating"></p>
-			<label for="tasteInput">Rate the taste:</label>
-			<input type="number" id="tasteInput" min="1" max="5" step="0.1">
-		</section>
-		<section>
-			<h2>Environment</h2>
-			<p id="environmentRating"></p>
-			<label for="environmentInput">Rate the environment:</label>
-			<input type="number" id="environmentInput" min="1" max="5" step="0.1">
-		</section>
-		<section>
-			<h2>Service</h2>
-			<p id="serviceRating"></p>
-			<label for="serviceInput">Rate the service:</label>
-			<input type="number" id="serviceInput" min="1" max="5" step="0.1">
-		</section>
-		<section>
-			<h2>Specific Coffee Ratings</h2>
-			<ul>
-				<li>
-					<h3>Espresso</h3>
-					<p id="espressoRating"></p>
-					<label for="espressoInput">Rate the espresso:</label>
-					<input type="number" id="espressoInput" min="1" max="5" step="0.1">
-				</li>
-				<li>
-					<h3>Americano</h3>
-					<p id="americanoRating"></p>
-					<label for="americanoInput">Rate the americano:</label>
-					<input type="number" id="americanoInput" min="1" max="5" step="0.1">
-				</li>
-				<li>
-					<h3>Cappuccino</h3>
-					<p id="cappuccinoRating"></p>
-					<label for="cappuccinoInput">Rate the cappuccino:</label>
-					<input type="number" id="cappuccinoInput" min="1" max="5" step="0.1">
-				</li>
-				<li>
-					<h3>Latte</h3>
-					<p id="latteRating"></p>
-					<label for="latteInput">Rate the latte:</label>
-					<input type="number" id="latteInput" min="1" max="5" step="0.1">
-				</li>
-			</ul>
-		</section>
+
+    <main>
+        <nav class="navbar navbar-expand-lg py-5">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Coffee Ground</a>
+                <a class="navbar-brand" href="#">
+                    <img src="img/Logo.png" alt="Bootstrap" width="30" height="24">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Map</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Cafe on the Ave"
+                            aria-label="Search">
+                        <button class="btn text-white" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <section>
+            <h2>Overall Rating</h2>
+            <p id="overallRating"></p>
+            <label for="overallInput">Rate this coffee shop:</label>
+            <input type="number" id="overallInput" min="1" max="5" step="0.1">
+        </section>
+        <section>
+            <h2>Taste</h2>
+            <p id="tasteRating"></p>
+            <label for="tasteInput">Rate the taste:</label>
+            <input type="number" id="tasteInput" min="1" max="5" step="0.1">
+        </section>
+        <section>
+            <h2>Environment</h2>
+            <p id="environmentRating"></p>
+            <label for="environmentInput">Rate the environment:</label>
+            <input type="number" id="environmentInput" min="1" max="5" step="0.1">
+        </section>
+        <section>
+            <h2>Service</h2>
+            <p id="serviceRating"></p>
+            <label for="serviceInput">Rate the service:</label>
+            <input type="number" id="serviceInput" min="1" max="5" step="0.1">
+        </section>
+        <section>
+            <h2>Specific Coffee Ratings</h2>
+            <ul>
+                <li>
+                    <h3>Espresso</h3>
+                    <p id="espressoRating"></p>
+                    <label for="espressoInput">Rate the espresso:</label>
+                    <input type="number" id="espressoInput" min="1" max="5" step="0.1">
+                </li>
+                <li>
+                    <h3>Americano</h3>
+                    <p id="americanoRating"></p>
+                    <label for="americanoInput">Rate the americano:</label>
+                    <input type="number" id="americanoInput" min="1" max="5" step="0.1">
+                </li>
+                <li>
+                    <h3>Cappuccino</h3>
+                    <p id="cappuccinoRating"></p>
+                    <label for="cappuccinoInput">Rate the cappuccino:</label>
+                    <input type="number" id="cappuccinoInput" min="1" max="5" step="0.1">
+                </li>
+                <li>
+                    <h3>Latte</h3>
+                    <p id="latteRating"></p>
+                    <label for="latteInput">Rate the latte:</label>
+                    <input type="number" id="latteInput" min="1" max="5" step="0.1">
+                </li>
+            </ul>
+        </section>
         <section>
             <h2>Comments</h2>
             <label for="commentInput">Leave a comment:</label>
@@ -192,9 +234,10 @@
                 </div>
             </div>
         </section>
-	</main>
-	<footer>
-		<p>&copy; 2023 Coffee Shop Ratings</p>
-	</footer>
+    </main>
+    <footer>
+        <p>&copy; 2023 Coffee Shop Ratings</p>
+    </footer>
 </body>
+
 </html>
