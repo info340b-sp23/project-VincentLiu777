@@ -2,8 +2,11 @@
   box-sizing: border-box;
   font-family: "Poppins", Arial, sans-serif;
   font-size: 16px;
+  margin: 0;
+  padding: 0;
   color: beige;
   background-color: #A68164;
+  line-height: 1.6;
 }
 
 #pb-3 {
@@ -11,3 +14,98 @@
   height: 300px;
 }
 
+body {
+  font-family: "Nunito Sans", Arial, sans-serif;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.main-content {
+  flex: 2;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.coffee-shop-img img {
+  max-width: 100%;
+  height: auto;
+  margin: 2rem;
+}
+
+.coffee-shop-info {
+  flex-grow: 1;
+  margin-left: 2rem;
+}
+
+.recommendations {
+  flex: 1;
+  padding: 2rem;
+  position: sticky;
+  top: 0;
+}
+
+.recommendations h2 {
+  margin-bottom: 1rem;
+}
+
+.coffee-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.coffee-img {
+  width: 150px;
+  height: 150px;
+  width: auto;
+  margin-right: 1rem;
+}
+
+.coffee-details {
+  line-height: 1.2;
+}
+
+.reviews-btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  position: absolute;
+  top: 2rem;
+  right: .5rem;
+}
+
+.reviews-btn:hover {
+  background-color: #555;
+}
+
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
