@@ -166,4 +166,9 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1rem;
+  font-size: 4em;
+}
+
+footer a {
+  color:beige
 }
