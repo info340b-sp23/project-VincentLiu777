@@ -14,6 +14,7 @@
   height: 300px;
 }
 
+/* style of detailed_page */
 body {
   font-family: "Nunito Sans", Arial, sans-serif;
   box-sizing: border-box;
@@ -102,6 +103,63 @@ header {
 
 .reviews-btn:hover {
   background-color: #555;
+}
+
+/* style for rating page*/
+h2 {
+  background-color: #6c4d36;
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 2rem;
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 2px;
+  text-align: center;
+}
+
+.rating {
+  width: 180px;
+}
+
+.rating__star {
+  cursor: pointer;
+  color: #dabd18b2;
+}
+
+.rating-box {
+  position: relative;
+  padding: 25px 50px 35px;
+  border-radius: 25px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+.rating-box header {
+  font-size: 22px;
+  color: #dadada;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.rating-box .stars {
+  display: flex;
+  justify-content: center; 
+  padding-top: 10px;
+  margin: 10px;
+  align-items: center;
+  gap: 25px;
+}
+.stars i {
+  color: #e6e6e6;
+  font-size: 35px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.stars i.active {
+  color: #ff9c1a;
 }
 
 footer {
