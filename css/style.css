@@ -97,7 +97,7 @@ header {
   padding: 0.5rem 1rem;
   border-radius: 5px;
   position: absolute;
-  top: 2rem;
+  top: 1.8rem;
   right: .5rem;
 }
 
@@ -106,7 +106,7 @@ header {
 }
 
 /* style for rating page*/
-h2 {
+.rating-info h2 {
   background-color: #6c4d36;
   color: #fff;
   font-size: 1.5rem;
@@ -116,7 +116,7 @@ h2 {
   text-transform: uppercase;
 }
 
-p {
+.rating-info p {
   font-size: 1.2rem;
   margin: 2px;
   text-align: center;
