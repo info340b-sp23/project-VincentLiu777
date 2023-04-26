@@ -9,6 +9,10 @@
   line-height: 1.6;
 }
 
+.navbar {
+  height: auto;
+}
+
 #pb-3 {
   width: 200px;
   height: 300px;
@@ -25,9 +29,10 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
 }
 
-header .coffee-name{
+header .coffee-name {
   background: linear-gradient(to bottom, #A68164, #7d593e);
   color: beige;
   text-align: center;
@@ -152,7 +157,7 @@ header .coffee-name{
 
 .rating-box .stars {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   padding-top: 10px;
   margin: 10px;
   align-items: center;
@@ -204,7 +209,8 @@ footer {
   line-height: 0;
 }
 
-footer address, footer p{
+footer address,
+footer p {
   color: #fff;
   text-align: center;
   padding: 1rem;
@@ -214,7 +220,7 @@ footer address, footer p{
 }
 
 footer a {
-  color:#fff;
+  color: #fff;
   font-size: 12px;
   background-color: #6c4d36;
   line-height: 0;
@@ -224,4 +230,91 @@ footer .footer-content {
   background-color: #6c4d36;
   margin: none;
   padding: none;
+}
+
+
+
+#map {
+  height: 100vh;
+}
+
+.card {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  width: 300px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  font-size: 14px;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.search-box {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  z-index: 1000;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  font-size: 14px;
+}
+
+.search-box input[type="text"] {
+  width: 200px;
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-box button {
+  padding: 5px;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.coffee-shop-list {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1000;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  font-size: 14px;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+.coffee-shop-list h2 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.coffee-shop-list li {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.coffee-shop-list li:hover {
+  background-color: #eee;
 }
