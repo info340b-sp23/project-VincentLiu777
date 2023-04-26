@@ -27,15 +27,16 @@ body {
   min-height: 100vh;
 }
 
-header {
-  color: white;
+header .coffee-name{
+  background: linear-gradient(to bottom, #A68164, #7d593e);
+  color: beige;
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding: 3rem;
 }
 
 .container {
   display: flex;
+  flex-wrap: wrap;
   flex: 1;
   margin: 0;
   padding: 0;
@@ -44,7 +45,7 @@ header {
 }
 
 .main-content {
-  flex: 2;
+  flex: 1;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -53,7 +54,8 @@ header {
 .coffee-shop-img img {
   max-width: 100%;
   height: auto;
-  margin: 2rem;
+  margin: 2rem auto;
+  display: block;
 }
 
 .coffee-shop-info {
@@ -98,7 +100,7 @@ header {
   border-radius: 5px;
   position: absolute;
   top: 1.8rem;
-  right: .5rem;
+  right: 2rem;
 }
 
 .reviews-btn:hover {
@@ -109,9 +111,10 @@ header {
 
 .rating-info h2 {
   background-color: #6c4d36;
-  color: #fff;
+  border-radius: 15px;
+  color: beige;
   font-size: 1.5rem;
-  margin: 2rem;
+  margin: 1rem;
   padding: 20px;
   text-align: center;
   text-transform: uppercase;
@@ -165,6 +168,33 @@ header {
 
 .stars i.active {
   color: #ff9c1a;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.rating-info form {
+  margin-top: 20px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  font-size: 18px;
+}
+
+.rating-info textarea {
+  resize: none;
+  height: 150px;
+  padding: 10px;
+  margin: 0;
+}
+
+.rating-info button[type="submit"] {
+  margin-top: 20px;
+  background-color: #6c4d36;
 }
 
 /* style ends here for rating page */
