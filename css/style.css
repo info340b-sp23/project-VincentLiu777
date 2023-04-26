@@ -106,7 +106,7 @@ header {
 }
 
 /* style for rating page*/
-h2 {
+#rating h2 {
   background-color: #6c4d36;
   color: #fff;
   font-size: 1.5rem;
@@ -116,7 +116,7 @@ h2 {
   text-transform: uppercase;
 }
 
-p {
+#rating p {
   font-size: 1.2rem;
   margin: 2px;
   text-align: center;
@@ -137,6 +137,7 @@ p {
   border-radius: 25px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
 }
+
 .rating-box header {
   font-size: 22px;
   color: #dadada;
@@ -144,6 +145,7 @@ p {
   margin-bottom: 20px;
   text-align: center;
 }
+
 .rating-box .stars {
   display: flex;
   justify-content: center; 
@@ -152,12 +154,14 @@ p {
   align-items: center;
   gap: 25px;
 }
+
 .stars i {
   color: #e6e6e6;
   font-size: 35px;
   cursor: pointer;
   transition: color 0.2s ease;
 }
+
 .stars i.active {
   color: #ff9c1a;
 }
