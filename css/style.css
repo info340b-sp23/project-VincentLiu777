@@ -166,13 +166,31 @@ header {
   color: #ff9c1a;
 }
 
+/* style ends here for rating page */
+
 footer {
+  background-color: #6c4d36;
+  line-height: 0;
+}
+
+footer address, footer p{
   color: #fff;
   text-align: center;
   padding: 1rem;
-  font-size: 4em;
+  font-size: 12px;
+  background-color: #6c4d36;
+  line-height: 0;
 }
 
 footer a {
-  color:beige
+  color:#fff;
+  font-size: 12px;
+  background-color: #6c4d36;
+  line-height: 0;
+}
+
+footer .footer-content {
+  background-color: #6c4d36;
+  margin: none;
+  padding: none;
 }
