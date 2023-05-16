@@ -28,10 +28,11 @@ edit and save the files
 git status ( to see your update is ready on the new branch)
 git add .
 git commit -m "message"
-git checkout main (switch back to main branch)
-git merge <branch name> (merger the new branch's data into the master branch)
 git push process as usual.
 ```
+
+### create a pull request, and wait till other group members approve the pull request. 
+
 ### Everytime when you are working on the repo again, don't forget to git pull the latest version of our repo to you local. 
 ```
 git branch xxxx (next time when you work, go to your own branch)
