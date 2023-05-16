@@ -4,6 +4,16 @@
 
 ### This branch is for Spring quarter 2023, INFO 340 Section BB Group 03.
 ### We will contniously update the readme file as we are working through the project.
+
+### Folders and Navigation of our repo
+- img folder consist all the images we used for the website, images are in png format. 
+- 2nd version folder consist all the html and js file we create prior to using react. (some of the file path need a redirection, since we moved then into this folder after writing the code)
+- css folder consist all the css for the 2nd version, if you are trying to view the final version of our project, don't read the files in here. 
+- react version folder will consist all the lastest code for our website written in react using js.
+
+### Initial Setup
+(still working on this) 
+
 ### Teammembers:
 - Vincent Liu: rliu8@uw.edu (VincentLiu777)
 - Zareen Tasnim: zarta@uw.edu (zareen-t)
