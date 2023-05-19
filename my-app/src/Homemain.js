@@ -1,7 +1,7 @@
 import React from 'react'; //import React library
 import ShopCard from './Shopcard';
-import 'bootstrap/dist/css/bootstrap.css';
 
+//This is the majority of the homepage content.
 export default function Main() {
   return (
     <main>

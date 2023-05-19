@@ -1,6 +1,6 @@
 import React from 'react'; //import React library
-import 'bootstrap/dist/css/bootstrap.css';
 
+// This is the footer, we will reuse this function a lot of time for other pages. 
 export default function Footer() {
   return (
     <footer>

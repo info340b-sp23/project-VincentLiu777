@@ -1,6 +1,6 @@
 import React from 'react'; //import React library
-import 'bootstrap/dist/css/bootstrap.css';
 
+// This is the card for each cafes. Used for homepage main content. 
 export default function ShopCard({ imgSrc, name, rating }) {
   return (
     <div className="col-md-6 col-xl-3 d-flex">

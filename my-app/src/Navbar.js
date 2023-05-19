@@ -1,6 +1,6 @@
 import React from 'react'; //import React library
-import 'bootstrap/dist/css/bootstrap.css';
 
+// This is the navigation bar, we will use this for all the pages. 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg py-5">
