@@ -1,19 +1,18 @@
 import React from 'react'; //import React library
 import Navbar from './Navbar';
 import Footer from './Footer';
-import Main from './Homemain';
+import Profilecard from './AboutMain';
 import 'bootstrap/dist/css/bootstrap.css';
 
 // This is the homepage. 
-function App() {
+function AboutUs() {
   return (
     <div>
       <Navbar />
-      <Main />
+      <Profilecard />
       <Footer />
     </div>
   );
 }
 
-export default App;
-
+export default AboutUs;
