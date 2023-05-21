@@ -78,114 +78,38 @@ header .coffee-name {
 .recommendations h2 {
   margin-bottom: 1rem;
 }
-.blod_a{
-	height: 50px;
-	line-height: 50px;
-	color: white;
-	text-decoration: none;
-	width: 30%;
-	margin-left: 35%;
-	background-color: #6c4d36;
-	font-weight: bold;
-	margin-bottom: 50px;
-}
+
 .coffee-item {
-	  display: flex;
-	  flex-direction: row;
-	  margin-bottom: 1rem;
-	  background-color:rgba(255,255,255,0.5);
-	  border-radius: 10px;
-	  padding: 10px;
-	margin-left: 3%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
 }
+
 .coffee-img {
   width: 150px;
   height: 150px;
+  width: auto;
   margin-right: 1rem;
 }
-.head_box{
-	color: white;
-	font-size: 26px;
-	background-color: transparent;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
-	border-bottom: 1px solid white;
-}
-.m_b_20{
-	margin-top: 20px;
-}
-.bg_red{
-	background-color: transparent;
-	color: red;
-}
-.txt_blod{
-	font-weight: bold;
-}
-.head_box>div{
-	background-color: transparent;
-	background-color: inherit;
-}
-.bg_blue{
-	color: #61DAFB;
-	background-color: transparent;
-}
-.txt_w{
-	color: white;
-}
-.m_img{
-	width: 25px;
-	height: 25px;
-	background-color: inherit;
-}
-.head_txt1{
-	font-size: 30px;
-	font-weight: bold;
-}
+
 .coffee-details {
   line-height: 1.2;
-  background-color: rgb(211,192,178);
-}
-.coffee-details>p{
-	background-color: rgb(211,192,178);
-}
-.coffee-details>strong{
-	background-color: rgb(211,192,178);
 }
 
 .reviews-btn {
   display: inline-block;
-  background-color: #6c4d36;
+  background-color: #333;
   color: #fff;
   text-decoration: none;
   padding: 0.5rem 1rem;
   border-radius: 5px;
-  z-index: 999;
-  margin-left:50%;
+  position: absolute;
+  top: 1.8rem;
+  right: 2rem;
 }
-.f_r{
-	display: flex;
-	flex-direction: row;
-}
+
 .reviews-btn:hover {
   background-color: #555;
-}
-#contact{
-	background: #6c4d36;
-	padding: 20px;
-	border-radius: 20px;
-}
-#contact>h2{
-	background-color: #6c4d36;
-	text-align: center;
-	border-bottom: 0.0625rem solid white;
-}
-#contact>p{
-	background-color: #6c4d36;
-}
-.fea_img{
-	width: 25px;
-	height: 25px;
-	margin-right: 10%;
 }
 
 /* style for rating page*/
@@ -219,7 +143,6 @@ header .coffee-name {
 .rating-box {
   position: relative;
   padding: 25px 50px 35px;
-  text-align: center;
   border-radius: 25px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
 }
@@ -255,29 +178,7 @@ header .coffee-name {
 section {
   margin-bottom: 50px;
 }
-#basic-info{
-	text-align: center;
-}
-ul{
-	list-style: none;
-}
-.card_box{
-	padding-top: 10px;
-	width: 35%;
-	margin-left: 10%;
-	background: rgba(255,255,255,0.5);
-	border-radius: 10px;
-}
-.card_box>strong{
-	background-color: rgb(211,192,178);
-}
-.card_box>ul{
-	background-color: rgb(211,192,178);
-	padding-left: 0px;
-}
-.card_box>ul>li{
-	background-color: rgb(211,192,178);
-}
+
 .rating-info form {
   margin-top: 20px;
   max-width: 1500px;
@@ -299,21 +200,6 @@ label {
 .rating-info button[type="submit"] {
   margin-top: 20px;
   background-color: #6c4d36;
-}
-.cof_img{
-	width: 400px;
-	height: 300px;
-	border-radius: 20px;
-	margin-top: 20px;
-	margin-bottom: 10px;
-}
-.back-btn{
-	display: inline-block;
-	background-color: #6c4d36;
-	color: #fff;
-	text-decoration: none;
-	padding: 0.5rem 1rem;
-	border-radius: 10px;
 }
 
 /* style ends here for rating page */
@@ -534,9 +420,3 @@ footer .footer-content {
     margin: 0 auto;
   }
 }
-
-@media screen and (orientation: portrait) {
-  .reviews-btn{
-   margin-left: 10%;
-  }
- } 
