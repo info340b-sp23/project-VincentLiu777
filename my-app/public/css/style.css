@@ -160,7 +160,7 @@ header .coffee-name {
   padding: 0.5rem 1rem;
   border-radius: 5px;
   z-index: 999;
-  margin-left:53%;
+  margin-left:50%;
 }
 .f_r{
 	display: flex;
@@ -534,3 +534,9 @@ footer .footer-content {
     margin: 0 auto;
   }
 }
+
+@media screen and (orientation: portrait) {
+  .reviews-btn{
+   margin-left: 10%;
+  }
+ } 
