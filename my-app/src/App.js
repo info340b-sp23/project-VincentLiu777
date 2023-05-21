@@ -1,19 +1,16 @@
-import React from 'react'; //import React library
-import Navbar from './Navbar';
-import Footer from './Footer';
-import Main from './Homemain';
-import 'bootstrap/dist/css/bootstrap.css';
+import logo from './logo.svg';
+import React from 'react';
+import './App.css';
+import axios from 'axios';
+import { Link,Route,useNavigate } from "react-router-dom"
 
-// This is the homepage. 
 function App() {
+		document.title = 'Index';
+	window.open('about:blank').location.href="http://localhost:3000/detailed_page.html?oid=123";
   return (
-    <div>
-      <Navbar />
-      <Main />
-      <Footer />
-    </div>
+    <div className="App">
+	</div>
   );
 }
 
 export default App;
-
