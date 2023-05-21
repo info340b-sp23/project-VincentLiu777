@@ -1,4 +1,5 @@
 # INFO 340 Project
+-- last edited on May 21st, 2023
 
 ## This repository contains code for an interactive information web app, created for the _Client-Side Web Development_ course at the UW iSchool.
 
@@ -6,13 +7,13 @@
 ### We will contniously update the readme file as we are working through the project.
 
 ### Folders and Navigation of our repo
-- img folder consist all the images we used for the website, images are in png format. 
-- 2nd version folder consist all the html and js file we create prior to using react. (some of the file path need a redirection, since we moved then into this folder after writing the code)
-- css folder consist all the css for the 2nd version, if you are trying to view the final version of our project, don't read the files in here. 
-- react version folder will consist all the lastest code for our website written in react using js.
+- project-draft folder consist all the html and js file we create prior to using react. (some of the file path need a redirection, since we moved then into this folder after writing the code) 
+- my-app folder will consist all the lastest code for our website written in react using js.
 
 ### Initial Setup
-(still working on this) 
+node installation 
+npm install
+npm start
 
 ### Teammembers:
 - Vincent Liu: rliu8@uw.edu (VincentLiu777)
@@ -38,4 +39,3 @@ git push process as usual.
 git branch xxxx (next time when you work, go to your own branch)
 git pull origin main (make sure you have the latest version of the main branch before you work)
 ```
-hello

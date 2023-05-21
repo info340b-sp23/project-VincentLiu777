@@ -5,7 +5,7 @@ const starRows = Array.from(document.querySelectorAll(".stars"));
 starRows.forEach(row => {
   // Select all the stars in the current row and store them in a NodeList called "stars"
   const stars = row.querySelectorAll("i");
-  
+
   // Loop through the "stars" NodeList for the current row
   stars.forEach((star, index1) => {
     // Add an event listener that runs a function when the "click" event is triggered

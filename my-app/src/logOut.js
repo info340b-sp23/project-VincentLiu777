@@ -17,7 +17,7 @@ function LogOut() {
 					"Authorization":"Bearer "+token ,
 					}
 			}).then(function (response) {
-				if(response.status==200){//成功
+				if(response.status==200){
 					// localStorage.setItem("token",response.token);
 					history('/' )
 				}else{
