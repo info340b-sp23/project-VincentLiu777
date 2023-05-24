@@ -30,7 +30,7 @@
   height: 300px;
   display: flex;
   align-items: center;
-  
+
 }
 
 .reviews .containerReviews .card {
@@ -39,13 +39,13 @@
   padding: 20px 30px;
   border-radius: 10px;
   box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
-  
+
 }
 
 .reviews .containerReviews .swiper-slide {
   display: flex;
   align-items: center;
-  
+
 }
 
 
@@ -81,23 +81,18 @@
 .reviews .containerReviews .swiper-rtl .swiper-button-next {
   color: #30250e;
   background: none;
-  
 }
 
 
 .reviews .containerReviews .swiper-button-next:after,
 .reviews .containerReviews .swiper-button-prev:after {
   font-size: 32px;
-  
 }
 
 .reviews .containerReviews .swiper {
   margin-left: auto;
   margin-right: auto;
-  
 }
-
-
 
 
 /* style of detailed_page */
@@ -111,7 +106,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-
+  background-color: #6c4d36;
 }
 
 header .coffee-name {
@@ -404,7 +399,6 @@ footer .footer-content {
 
 /* Computer view */
 /* Formatting reviews on the homepage on a large screen */
-
 @media (min-width: 1024px) {
   .reviews {
     display: flex;
@@ -428,9 +422,9 @@ footer .footer-content {
   body {
     font-size: 18px;
   }
-  
+
   .container {
     width: 90%;
     margin: 0 auto;
-  } 
-} 
+  }
+}
