@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "content": "The best website to find your new fave coffee shop!",
+        "author": "Sarah Mendez",
+        "date": "2 months ago"
+    },
+    {
+        "id": 2,
+        "content": "I enjoy comparing the different features between each shop.",
+        "author": "Safra Catz",
+        "date": "One week ago"
+    },
+    {
+        "id": 3,
+        "content": "I love the look of this website!",
+        "author": "Layla Locks",
+        "date": "8 months ago"
+    },
+    {
+        "id": 4,
+        "content": "The details are accurate everytime!",
+        "author": "Mark Johnson",
+        "date": "1 year ago"
+    },
+    {
+        "id": 5,
+        "content": "There’s even a map that shows me what’s good near me, I found some hidden gems!",
+        "author": "Zara Ahmed",
+        "date": "4 months ago"
+    },
+    {
+        "id": 6,
+        "content": "This is my favorite website to refer to when making coffee plans!",
+        "author": "Anjali Singh",
+        "date": "6 months ago"
+    },
+    {
+        "id": 7,
+        "content": "Phenomenal!",
+        "author": "David Kim",
+        "date": "2 weeks ago"
+    },
+    {
+        "id": 8,
+        "content": "I shared this website with all my friends! They now use it daily!",
+        "author": "Sid Kammath",
+        "date": "4 weeks ago"
+    }
+]

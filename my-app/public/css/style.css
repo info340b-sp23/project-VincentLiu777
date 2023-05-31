@@ -181,9 +181,15 @@ header .coffee-name {
   padding: 0.5rem 1rem;
   border-radius: 5px;
   position: absolute;
-  top: 1.8rem;
-  right: 2rem;
+  top: 900px;
+  right: 800px;
+
 }
+
+.head_box img {
+  width: 100px;
+  height: auto;
+} 
 
 .reviews-btn:hover {
   background-color: #555;
