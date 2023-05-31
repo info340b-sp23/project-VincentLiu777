@@ -1,0 +1,136 @@
+{
+  "cafes": [
+    {
+      "name": "Cafe on the Ave",
+      "address": "4201 University Way NE, Seattle, WA 98105",
+      "number of reviews": "1232",
+      "image": "../img/coffee-shop-1.png",
+      "image1": "../img/co1mp.png",
+      "review score": "4/5 stars",
+      "shop type": "Coffee & Tea, Bakeries",
+      "price": "$$",
+      "operations hours": "8:00am - 4:00pm"
+    },
+    {
+      "name": "Bulldog News Cafe",
+      "address": "4208 University Way NE, Seattle, WA 98105",
+      "number of reviews": "1222",
+      "image": "../img/coffee-shop-1.png",
+      "imgge1": "../img/co1mp.png",
+      "review score": "4.5/5 stars",
+      "shop type": "Coffee & Tea, Bakeries",
+      "price": "$$$",
+      "operations hours": "8:00am - 3:00pm"
+    },
+    {
+      "name": "Leon Coffee House",
+      "address": "1309 NE 45th St, Seattle, WA 98105",
+      "number of reviews": "1332",
+      "image": "../img/coffee-shop-1.png",
+      "imgge1": "../img/co1mp.png",
+      "review score": "4/5 stars",
+      "shop type": "Coffee & Tea, Bakeries",
+      "price": "$$",
+      "operations hours": "8:00am - 3:30pm"
+    },
+    {
+      "name": "Ugly Mug",
+      "address": "1309 NE 43rd St, Seattle, WA 98105",
+      "number of reviews": "4232",
+      "image": "../img/coffee-shop-1.png",
+      "image1": "../img/co1mp.png",
+      "review score": "3.7/5 stars",
+      "shop type": "Coffee & Tea, Bakeries",
+      "price": "$",
+      "operations hours": "6:00am - 3:00pm"
+    },
+    {
+      "name": "Storyville Coffee Company",
+      "address": "94 Pike Street Top floor Suite 34, Seattle, WA 98101",
+      "number of reviews": "2185",
+      "image": "../img/coffee-shop-1.png",
+      "image1": "../img/co1mp.png",
+      "review score": "4.7/5 stars",
+      "shop type": "Coffee & Tea, Bakeries",
+      "price": "$$",
+      "operations hours": "8:00am - 3:00pm"
+    },
+    {
+      "name": "Elm Coffee Roaster",
+      "address": "240 2nd Ave S #103, Seattle, WA 98104",
+      "number of reviews": "679",
+      "image": "../img/coffee-shop-1.png",
+      "image1": "../img/co1mp.png",
+      "review score": "4.6/5 stars",
+      "shop type": "Coffee & Tea, Bakeries",
+      "price": "$",
+      "operations hours": "10:00am - 3:00pm"
+    },
+    {
+      "name": "Hood Famous",
+      "address": "504 5th Ave S #107a, Seattle, WA 98104",
+      "number of reviews": "368",
+      "image": "../img/coffee-shop-1.png",
+      "image1": "../img/co1mp.png",
+      "review score": "4.7/5 stars",
+      "shop type": "Coffee & Tea, Bakeries",
+      "price": "$$",
+      "operations hours": "8:00am - 4:00pm"
+    },
+    {
+      "name": "URL Coffee",
+      "address": "524 Broadway, Seattle, WA 98122",
+      "number of reviews": "120",
+      "image": "../img/coffee-shop-1.png",
+      "image1": "../img/co1mp.png",
+      "review score": "4.9/5 stars",
+      "shop type": "Coffee & Tea, Bakeries",
+      "price": "$$",
+      "operations hours": "8:00am - 5:00pm"
+    },
+    {
+      "name": "Seattle Coffee Works",
+      "address": "108 Pine St, Seattle, WA 98101",
+      "number of reviews": "1161",
+      "image": "../img/coffee-shop-1.png",
+      "image1": "../img/co1mp.png",
+      "review score": "4.5/5 stars",
+      "shop type": "Coffee & Tea, Bakeries",
+      "price": "$$",
+      "operations hours": "8:00am - 5:00pm"
+    },
+    {
+      "name": "Cherry Street Coffee House",
+      "address": "700 1st Ave, Seattle, WA 98104",
+      "number of reviews": "847",
+      "image": "../img/coffee-shop-1.png",
+      "image1": "../img/co1mp.png",
+      "review score": "4.4/5 stars",
+      "shop type": "Coffee & Tea, Bakeries",
+      "price": "$$",
+      "operations hours": "11:00am - 3:00pm"
+    },
+    {
+      "name": "Monorail Espresso",
+      "address": "510 Pike St, Seattle, WA 98101",
+      "number of reviews": "530",
+      "image": "../img/coffee-shop-1.png",
+      "image1": "../img/co1mp.png",
+      "review score": "4.8/5 stars",
+      "shop type": "Coffee & Tea, Bakeries",
+      "price": "$",
+      "operations hours": "8:00am - 6:00pm"
+    },
+    {
+      "name": "Fuji Bakery",
+      "address": "1030 Elliott Ave W, Seattle, WA 98119",
+      "number of reviews": "653",
+      "image": "../img/coffee-shop-1.png",
+      "image1": "../img/co1mp.png",
+      "review score": "4.7/5 stars",
+      "shop type": "Coffee & Tea, Bakeries",
+      "price": "$$",
+      "operations hours": "8:00am - 5:00pm"
+    }
+  ]
+}
