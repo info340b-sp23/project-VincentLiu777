@@ -1,0 +1,53 @@
+.reviews-btn {
+  /* margin-top: 27px; */
+  opacity: 0.5;
+}
+.head_txt1 {
+  font-size: 22px;
+  /* color: white; */
+  display: flex;
+  justify-content: space-between;
+}
+.txt_blod {
+  font-size: 16px;
+}
+.bg_blue {
+  color: aqua;
+}
+.bg_red {
+  color: red;
+}
+.head_box {
+  border-bottom: 1px solid white;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+.f_r {
+  display: flex;
+}
+.fea_iconimg {
+  width: 16px;
+}
+.coffee-img {
+  width: 180px;
+  height: auto;
+}
+.coffee-item {
+  display: flex;
+  align-items: start;
+  background-color: rgb(214, 196, 182);
+  border-radius: 5px;
+}
+.coffee-item {
+  padding: 5px;
+  /* opacity: 0.2; */
+}
+.coffee-details {
+  background-color: rgb(214, 196, 182);
+}
+.coffee-details p {
+  background-color: rgb(214, 196, 182);
+}
+.coffee-details-strong {
+  background-color: rgb(214, 196, 182);
+}
