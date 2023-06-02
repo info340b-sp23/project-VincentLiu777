@@ -1,0 +1,105 @@
+html,
+body {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(217, 175, 133);
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: 100%;
+}
+::-webkit-scrollbar {
+  display: none; /* Chrome Safari */
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.headBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  color: #fff;
+  font-weight: 500;
+  background-color: rgb(217, 175, 133);
+}
+.headNav li {
+  float: left;
+  padding: 0 16px;
+  cursor: pointer;
+}
+.other {
+  margin-left: 40px;
+}
+
+.subscribeBtn {
+  text-align: center;
+  /* border: 2px solid #ff4d4f; */
+  height: 30px;
+  line-height: 30px;
+  padding: 0 8px;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  /* height: 100vh; */
+  width: 100%;
+  color: #fff;
+}
+
+.leftSide {
+  width: 500px;
+  overflow-y: auto;
+  margin-left: 5px;
+  float: left;
+}
+.rightSide {
+  flex: 1;
+  height: 100%;
+  position: fixed;
+  left: 500px;
+  right: 0;
+  margin: 0 10px 0 20px;
+}
+#leaflet {
+  width: 100%;
+  height: 100vh;
+}
+.footerContainer {
+  height: 200px;
+}
+.footerContainer > strong {
+  display: inline-block;
+  margin: 10px 0;
+}
+.seattleBox {
+  display: flex;
+  flex-direction: row;
+}
+.footerContent {
+  border: 1px solid #dcdfe6;
+  max-width: 240px;
+  min-height: 80px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+.footerContent > img {
+  width: 100px;
+  float: left;
+}
+.footerContent > span {
+  word-break: break-all;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 5px;
+}
