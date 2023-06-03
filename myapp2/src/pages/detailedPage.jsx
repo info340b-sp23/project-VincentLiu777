@@ -2,9 +2,11 @@ import React, { Fragment, useEffect, useState } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import {useSearchParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../detailed_page.css";
 import {cafes}from  "./mockData/index"
 function DetailedPage(props) {
+  const navigate = useNavigate()
   const [searchParams] = useSearchParams();
   
   const [data,setData] =useState( {
@@ -20,17 +22,15 @@ function DetailedPage(props) {
   })
   useEffect(()=>{
   const newData=cafes?.find(item=>item?.name==searchParams.getAll('name')[0])
-  console.log(newData);
+  if(!newData){
+    navigate('/notFound')
+  }
   setData({
     ...newData,
     address:newData?.address?.split(",")
   })
-  console.log({
-    ...newData,
-    address:newData?.address?.split(",")
-  });
+
   },[])
-  console.log(searchParams.getAll('name')[0]) 
   return (
     <Fragment>
       <Header />
