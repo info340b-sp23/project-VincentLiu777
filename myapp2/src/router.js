@@ -7,6 +7,8 @@ import AfterRating from "./pages/afterRating";
 import DetailedPage from "./pages/detailedPage";
 import Map from "./pages/index";
 import Rating from "./pages/rating";
+import NotFound from "./pages/NotFound";
+
 const routes = [
   //  嵌套路由 开始-------------------
   {
@@ -42,10 +44,14 @@ const routes = [
     path: "/rating",
     element: <Rating />,
   },
+  {
+    path: "/notFound",
+    element: <NotFound />,
+  },
   // 访问其余路径的时候直接跳到首页
-  // {
-  //   path: "*",
-  //   element: <Navigate to="/home" />,
-  // },
+  {
+    path: "*",
+    element: <Navigate to="/notFound" />,
+  },
 ];
 export default routes;

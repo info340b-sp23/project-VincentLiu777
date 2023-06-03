@@ -1,5 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 function Header() {
+  const navigate=useNavigate()
+  const handleSubmit = (e) => {
+		e.preventDefault();
+    navigate(`/detailedPage?name=${e.target.test.value}`)
+  }
   return (
     <nav class="navbar navbar-expand-lg py-5">
       <div class="container-fluid">
@@ -28,7 +34,7 @@ function Header() {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/detailedPage">
+              <a class="nav-link" href="/detailedPage?name=Cafe on the Ave">
                 Coffee
               </a>
             </li>
@@ -36,18 +42,19 @@ function Header() {
               <a
                 class="nav-link"
                 href="/aboutus"
-                // onClick={() => navigate("/aboutus")}
               >
                 About Us
               </a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
+          <form class="d-flex" role="search" id="formData" onSubmit={handleSubmit}>
             <input
               class="form-control me-2"
               type="search"
+              name="test"
               placeholder="Cafe on the Ave"
-              aria-label="Search"
+              // aria-label="Search"
+              id="ipt"
             />
             <button class="btn text-white" type="submit">
               Search
