@@ -5,6 +5,7 @@ import {useSearchParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import "../detailed_page.css";
 import {cafes}from  "./mockData/index"
+// this is the page for individual coffee store, with all the detail information shown ( also a review feature)
 function DetailedPage(props) {
   const navigate = useNavigate()
   const [searchParams] = useSearchParams();

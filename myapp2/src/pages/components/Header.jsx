@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+// nav bar section for all the pages
 function Header() {
   const navigate=useNavigate()
   const handleSubmit = (e) => {

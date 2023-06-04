@@ -10,12 +10,12 @@ import Rating from "./pages/rating";
 import NotFound from "./pages/NotFound";
 
 const routes = [
-  //  嵌套路由 开始-------------------
+  //  routes begin
   {
     path: "/",
     element: <Navigate to="/home" />,
   },
-  // 嵌套路由 结束-------------------
+  // routes ends 
   {
     path: "/test",
     element: <HistoryTest />,
@@ -48,7 +48,7 @@ const routes = [
     path: "/notFound",
     element: <NotFound />,
   },
-  // 访问其余路径的时候直接跳到首页
+  // page jump back to homepage when failed 
   {
     path: "*",
     element: <Navigate to="/notFound" />,

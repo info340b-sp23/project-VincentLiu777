@@ -1,12 +1,10 @@
 import React, { Fragment, useEffect, } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-
 import { useNavigate } from "react-router-dom";
-
 import "../App.css";
-
-// 测试数据
+//this is the map page 
+// test data here
 import { mapData } from "../mock";
 
 function Index(props) {

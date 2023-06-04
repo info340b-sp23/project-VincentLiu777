@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "../after_rating.css";
+// this is the page that will shown after we submit a review. 
 function AfterRating() {
   return (
     <Fragment>

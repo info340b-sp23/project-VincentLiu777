@@ -1,16 +1,19 @@
-import React, { Fragment,useEffect} from "react";
+import React, { Fragment, useEffect } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import {  Rate  } from 'antd'
+import { Rate } from 'antd'
 import "../rating.css";
+
+// this is for the rating page of our website 
+
 function Rating() {
-  useEffect(()=>{
+  useEffect(() => {
     const starRows = Array.from(document.querySelectorAll(".stars"));
     // Loop through the "starRows" array
     starRows.forEach(row => {
       // Select all the stars in the current row and store them in a NodeList called "stars"
       const stars = row.querySelectorAll("i");
-    
+
       // Loop through the "stars" NodeList for the current row
       stars.forEach((star, index1) => {
         // Add an event listener that runs a function when the "click" event is triggered
@@ -24,8 +27,8 @@ function Rating() {
         });
       });
     });
-  },[])
- 
+  }, [])
+
   return (
     <Fragment>
       <Header />
@@ -37,7 +40,7 @@ function Rating() {
             <div class="rating-box">
               <p>What is your overall impression of this coffee shop?</p>
               <img class="cof_img" src="img/coffeeShop.png" alt="coff1" />
-              
+
               <div class="stars">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
