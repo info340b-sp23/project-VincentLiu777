@@ -1,3 +1,4 @@
+// mock data for the homepage
 export const cafes=  [
     {
       "name": "Cafe on the Ave",

@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import { useNavigate } from "react-router-dom";
 import {cafes}from  "./mockData/index"
 
+// home page for our website 
 function Home(props) {
   // console.log(props.history.push('/index'));
   const navigate = useNavigate()

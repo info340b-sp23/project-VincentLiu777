@@ -1,4 +1,5 @@
 import React from "react";
+// footer section for all pages
 function Footer() {
   return (
     <footer>
