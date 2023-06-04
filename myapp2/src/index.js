@@ -6,6 +6,24 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 
 //this is the index.js for our website 
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBbWDtu4jWlyzX6PUn2uKVzgkv8apRdOwE",
+  authDomain: "info340-21de9.firebaseapp.com",
+  projectId: "info340-21de9",
+  storageBucket: "info340-21de9.appspot.com",
+  messagingSenderId: "442285948883",
+  appId: "1:442285948883:web:a8adbcb29f26620d5df926"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

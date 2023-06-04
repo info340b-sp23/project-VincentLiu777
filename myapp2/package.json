@@ -11,6 +11,7 @@
     "coordtransform": "^2.1.2",
     "esri-leaflet": "^3.0.10",
     "esri-leaflet-geocoder": "^3.1.4",
+    "firebase": "^9.22.1",
     "leaflet": "^1.9.3",
     "leaflet-search": "^3.0.9",
     "lodash": "^4.17.21",
