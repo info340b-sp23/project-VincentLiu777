@@ -53,13 +53,14 @@ function Header() {
               class="form-control me-2"
               type="search"
               name="test"
-              placeholder="Cafe on the Ave"
+              placeholder="Search..."
               // aria-label="Search"
               id="ipt"
             />
-            <button class="btn text-white" type="submit">
-              Search
+            <button class="btn text-white" type="submit" >
+              <img src="./img/magnify.png" alt="submit button" width="30" height="30"/>
             </button>
+
           </form>
         </div>
       </div>
