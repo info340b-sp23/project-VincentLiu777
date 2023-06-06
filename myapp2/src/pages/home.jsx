@@ -2,7 +2,7 @@ import React, { useEffect, Fragment } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { useNavigate } from "react-router-dom";
-import {cafes}from  "./mockData/index"
+import { cafes } from "./mockData/index"
 
 // home page for our website 
 function Home(props) {
@@ -106,10 +106,12 @@ function Home(props) {
           </div>
         </div>
       </section>
+
       <main>
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-xl-3 d-flex">
+
               <div class="card mb-4">
                 <div class="card-body">
                   <div class="row">
@@ -119,11 +121,12 @@ function Home(props) {
                     <div class="col-sm">
                       <h2 class="card-title">Cafe on the Ave</h2>
                       <p class="card-text">4/5 stars</p>
-                      <a href="/detailedPage?name=Cafe on the Ave" class="btn btn-dark" onClick={()=>{
-                         navigate('/detailedPage?name=Cafe on the Ave')
+                      <a href="/detailedPage?name=Cafe on the Ave" class="btn btn-dark" onClick={() => {
+                        navigate('/detailedPage?name=Cafe on the Ave')
                       }}>
                         View more
                       </a>
+
                     </div>
                   </div>
                 </div>
@@ -140,8 +143,8 @@ function Home(props) {
                     <div class="col-sm">
                       <h2 class="card-title">Bulldog News Cafe</h2>
                       <p class="card-text">4.5/5 stars</p>
-                      <a href="/detailedPage?name=Bulldog News Cafe" class="btn btn-dark" onClick={()=>{
-                         navigate('/detailedPage?name=Bulldog News Cafe')
+                      <a href="/detailedPage?name=Bulldog News Cafe" class="btn btn-dark" onClick={() => {
+                        navigate('/detailedPage?name=Bulldog News Cafe')
                       }}>
                         View more
                       </a>
@@ -165,8 +168,8 @@ function Home(props) {
                     <div class="col-sm">
                       <h2 class="card-title">Leon Coffee House</h2>
                       <p class="card-text">4.5/5 stars</p>
-                      <a href="/detailedPage?name=Leon Coffee House" class="btn btn-dark" onClick={()=>{
-                         navigate('/detailedPage?name=Leon Coffee House')
+                      <a href="/detailedPage?name=Leon Coffee House" class="btn btn-dark" onClick={() => {
+                        navigate('/detailedPage?name=Leon Coffee House')
                       }}>
                         View more
                       </a>
@@ -180,17 +183,19 @@ function Home(props) {
               <div class="card mb-4">
                 <div class="card-body">
                   <div class="row">
-                    <div class="col col-sm-auto col-xl-12">
-                      <img src="img/coffee4.png" alt="coffee" width="200" />
-                    </div>
-                    <div class="col-sm">
-                      <h2 class="card-title">Ugly Mug</h2>
-                      <p class="card-text">3.5/5 stars</p>
-                      <a href="/detailedPage?name=Ugly Mug" class="btn btn-dark" onClick={()=>{
-                         navigate('/detailedPage?name=Ugly Mug')
-                      }}>
-                        View more
-                      </a>
+                    <div class="food-item featured">
+                      <div class="col col-sm-auto col-xl-12">
+                        <img src="img/coffee4.png" alt="coffee" width="200" />
+                      </div>
+                      <div class="col-sm">
+                        <h2 class="card-title">Ugly Mug</h2>
+                        <p class="card-text">3.5/5 stars</p>
+                        <a href="/detailedPage?name=Ugly Mug" class="btn btn-dark" onClick={() => {
+                          navigate('/detailedPage?name=Ugly Mug')
+                        }}>
+                          View more
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -211,8 +216,8 @@ function Home(props) {
                     <div class="col-sm">
                       <h2 class="card-title">Coffee Lovers</h2>
                       <p class="card-text">3.75/5 stars</p>
-                      <a href="/detailedPage?name=Coffee Lovers" class="btn btn-dark" onClick={()=>{
-                         navigate('/detailedPage?name=Coffee Lovers')
+                      <a href="/detailedPage?name=Coffee Lovers" class="btn btn-dark" onClick={() => {
+                        navigate('/detailedPage?name=Coffee Lovers')
                       }}>
                         View more
                       </a>
@@ -236,8 +241,8 @@ function Home(props) {
                     <div class="col-sm">
                       <h2 class="card-title">Beans</h2>
                       <p class="card-text">4.2/5 stars</p>
-                      <a href="/detailedPage?name=Beans" class="btn btn-dark" onClick={()=>{
-                         navigate('/detailedPage?name=Beans')
+                      <a href="/detailedPage?name=Beans" class="btn btn-dark" onClick={() => {
+                        navigate('/detailedPage?name=Beans')
                       }}>
                         View more
                       </a>
@@ -261,8 +266,8 @@ function Home(props) {
                     <div class="col-sm">
                       <h2 class="card-title">Cafe de Noche</h2>
                       <p class="card-text">4.5/5 stars</p>
-                      <a href="/detailedPage?name=Cafe de Noche" class="btn btn-dark" onClick={()=>{
-                         navigate('/detailedPage?name=Cafe de Noche')
+                      <a href="/detailedPage?name=Cafe de Noche" class="btn btn-dark" onClick={() => {
+                        navigate('/detailedPage?name=Cafe de Noche')
                       }}>
                         View more
                       </a>
@@ -286,8 +291,8 @@ function Home(props) {
                     <div class="col-sm">
                       <h2 class="card-title">Cafe Bonita</h2>
                       <p class="card-text">3.8/5 stars</p>
-                      <a href="/detailedPage?name=Cafe Bonita" class="btn btn-dark" onClick={()=>{
-                         navigate('/detailedPage?name=Cafe Bonita')
+                      <a href="/detailedPage?name=Cafe Bonita" class="btn btn-dark" onClick={() => {
+                        navigate('/detailedPage?name=Cafe Bonita')
                       }}>
                         View more
                       </a>
@@ -296,6 +301,7 @@ function Home(props) {
                 </div>
               </div>
             </div>
+
             <div class="col-md-6 col-xl-3 d-flex">
               <div class="card mb-4">
                 <div class="card-body">
@@ -310,8 +316,8 @@ function Home(props) {
                     <div class="col-sm">
                       <h2 class="card-title">Cafe Jasmine</h2>
                       <p class="card-text">4/5 stars</p>
-                      <a href="/detailedPage?name=>Cafe Jasmine" class="btn btn-dark"onClick={()=>{
-                         navigate('/detailedPage?name=>Cafe Jasmine')
+                      <a href="/detailedPage?name=>Cafe Jasmine" class="btn btn-dark" onClick={() => {
+                        navigate('/detailedPage?name=>Cafe Jasmine')
                       }}>
                         View more
                       </a>
@@ -320,38 +326,41 @@ function Home(props) {
                 </div>
               </div>
             </div>
-            {cafes?.map(item=>{
-              return  <div class="col-md-6 col-xl-3 d-flex">
-              <div class="card mb-4">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col col-sm-auto col-xl-12">
-                      <img
-                        src={item?.image||"img/types-of-coffee-1610657404.jpg"}
-                        alt="coffee"
-                        width="200"
-                       style={{height:250}}
-                      />
-                    </div>
-                    <div class="col-sm">
-                      <h2 class="card-title">{item?.name}</h2>
-                      <p class="card-text">{item?.['review score']||'4/5 stars'}</p>
-                      <a href={`/detailedPage?name=${item?.name}`} class="btn btn-dark"onClick={()=>{
-                         navigate(`/detailedPage?name=${item?.name}`)
-                      }}>
-                        View more
-                      </a>
+
+            {cafes?.map(item => {
+              return <div class="col-md-6 col-xl-3 d-flex">
+                <div class="card mb-4">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col col-sm-auto col-xl-12">
+                        <img
+                          src={item?.image || "img/types-of-coffee-1610657404.jpg"}
+                          alt="coffee"
+                          width="200"
+                          style={{ height: 250 }}
+                        />
+                      </div>
+                      <div class="col-sm">
+                        <h2 class="card-title">{item?.name}</h2>
+                        <p class="card-text">{item?.['review score'] || '4/5 stars'}</p>
+                        <a href={`/detailedPage?name=${item?.name}`} class="btn btn-dark" onClick={() => {
+                          navigate(`/detailedPage?name=${item?.name}`)
+                        }}>
+                          View more
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
             })}
           </div>
         </div>
       </main>
+
       <Footer />
     </Fragment>
   );
 }
 export default Home;
+

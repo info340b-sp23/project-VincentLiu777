@@ -52,18 +52,18 @@ function DetailedPage(props) {
                     </div>
                     <div class="carousel-item">
                       <img
-                        src={data?.image2||"./img/Leo.png"}
+                        src={data?.image2||"./img/cof.png"}
                         style={{ height: 550, width: 750 }}
                         class="d-block w-100 detail_img"
-                        alt="Leo.png"
+                        alt="coffeeShop.png"
                       />
                     </div>
                     <div class="carousel-item">
                       <img
-                        src={data?.image3||"./img/Nika.png"}
+                        src={data?.image3||"./img/Latte.png"}
                         style={{ height: 550, width: 750 }}
                         class="d-block w-100 detail_img"
-                        alt="Nika.png"
+                        alt="cof.png"
                       />
                     </div>
                   </div>
