@@ -22,7 +22,6 @@ function Index(props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // 初始化地图
   const initMap = (INIT_SITE, coords) => {
     const map = window.L.map("leaflet").setView(INIT_SITE, 4);
     const marker_ = window.L.marker;
